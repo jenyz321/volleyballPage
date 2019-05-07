@@ -13,62 +13,62 @@ const scheduleSeed = [
     opponent: "Pineapple Cove",
     location: "Away",
     startTime: "5:30",
-    date: new Date(Date.now())
+    date: "08/28/19"
   },
   {
-    opponent: "Pineapple Cove",
-    location: "Away",
-    startTime: "5:30",
-    date: new Date(Date.now())
+    opponent: "Trinity Lutheran",
+    location: "Home",
+    startTime: "4:30",
+    date: "08/30/19"
     
   },
   {
-    opponent: "Pineapple Cove",
-    location: "Away",
+    opponent: "Royal Palm",
+    location: "Home",
     startTime: "5:30",
-    date: new Date(Date.now())
+    date: "09/04/19"
   },
   {
-    opponent: "Pineapple Cove",
-    location: "Away",
-    startTime: "5:30",
-    date: new Date(Date.now())
+    opponent: "Brevard Academy",
+    location: "Home",
+    startTime: "4:30",
+    date: "09/06/19"
   },
   {
-    opponent: "Pineapple Cove",
-    location: "Away",
-    startTime: "5:30",
-    date: new Date(Date.now())
+    opponent: "Calvary",
+    location: "Home",
+    startTime: "4:30",
+    date: "09/11/19"
   },
   {
-    opponent: "Pineapple Cove",
+    opponent: "Holy Trinity",
     location: "Away",
-    startTime: "5:30",
-    date: new Date(Date.now())
+    startTime: "5:00",
+    date: "09/13/19"
   },
   {
-    opponent: "Pineapple Cove",
+    opponent: "Viera Charter",
     location: "Away",
     startTime: "5:30",
-    date: new Date(Date.now())
+    date: "09/20/19"
   },
   {
-    opponent: "Pineapple Cove",
+    opponent: "Calvary",
     location: "Away",
-    startTime: "5:30",
-    date: new Date(Date.now())
+    startTime: "5:00",
+    date: "09/24/19"
   },
   {
-    opponent: "Pineapple Cove",
-    location: "Away",
-    startTime: "5:30",
-    date: new Date(Date.now())
+    opponent: "Bethany",
+    location: "Home",
+    startTime: "4:30",
+    date: "10/02/19"
   },
   {
-    opponent: "Pineapple Cove",
+    opponent: "MICS",
     location: "Away",
-    startTime: "5:30",
-    date: new Date(Date.now())
+    startTime: "5:15",
+    date: "10/04/19"
   }
 ];
 

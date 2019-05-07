@@ -4,8 +4,8 @@ const Schema = mongoose.Schema;
 const scheduleSchema = new Schema({
   opponent: { type: String, required: true },
   location: { type: String, required: true },
-  startTime: Date,
-  date: { type: Date, default: Date.now }
+  startTime: { type: Number, required: true},
+  date: { type: Date, required: true }
 });
 
 const Volleyball = mongoose.model("Volleyball", scheduleSchema);
