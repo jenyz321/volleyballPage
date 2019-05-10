@@ -1,3 +1,3 @@
 module.exports = {
-  Volleyball: require("./volleyball")
+  Schedule: require("./schedule")
 };

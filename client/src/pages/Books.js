@@ -6,38 +6,37 @@ import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 // import { Input, TextArea, FormBtn } from "../components/Form";
 
-class Books extends Component {
+class Schedules extends Component {
   state = {
-    books: []
+    schedules: []
   };
 
   componentDidMount() {
-    this.loadBooks();
+    this.loadSchedules();
   }
 
-  loadBooks = () => {
-    API.getBooks()
-      .then(res => this.setState({ books: res.data }))
+  loadSchedules = () => {
+    API.getSchedules()
+      .then(res => this.setState({ schedules: res.data }))
       .catch(err => console.log(err));
   };
 
   render() {
     return (
       <Container fluid>
-        
             <Jumbotron>
-              <h1>2019 Schedule</h1>
+              <h1>2019 Schedule Info</h1>
             </Jumbotron>
-            {this.state.books.length ? (
+            {this.state.schedules.length ? (
               <List>
-                {this.state.books.map(book => (
-                  <ListItem key={book._id}>
-                    <a href={"/books/" + book._id}>
+                {this.state.schedules.map(schedule => (
+                  <ListItem key={schedule._id}>
+                    <a href={"/books/" + schedule._id}>
                       <strong>
-                        {book.title} by {book.author}
+                        {schedule.date} and {schedule.opponent}
                       </strong>
                     </a>
-                    <DeleteBtn />
+                    {/* <DeleteBtn /> */}
                   </ListItem>
                 ))}
               </List>
@@ -51,4 +50,4 @@ class Books extends Component {
   }
 }
 
-export default Books;
+export default Schedules;
