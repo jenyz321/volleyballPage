@@ -12,14 +12,14 @@ router
 router
   .route("/:id")
   .get(scheduleController.findById)
-  .put(scheduleController.update)
+  .put(scheduleController.update);
   // .delete(scheduleController.remove);
 
 //trying to make a route for coaches only to input games
 // Matches with ("")
 router
   .route("/AddGames")
-  
+  .post(scheduleController.create);
   
 
 module.exports = router;

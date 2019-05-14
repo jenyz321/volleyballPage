@@ -14,7 +14,10 @@ export default {
   //   return axios.delete("/api/books/" + id);
   // },
   // Saves a book to the database
-  saveSchedule: function(scheduleData) {
+  saveAddGames: function(scheduleData) {
     return axios.post("/api/schedule", scheduleData);
+  },
+  getAddGames: function() {
+    return axios.get("/api/schedule");
   }
 };
