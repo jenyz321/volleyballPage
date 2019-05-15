@@ -10,9 +10,9 @@ export default {
     return axios.get("/api/schedule/" + id);
   },
   // Deletes the book with the given id
-  // deleteBook: function(id) {
-  //   return axios.delete("/api/books/" + id);
-  // },
+  deleteSchedules: function(id) {
+    return axios.delete("/api/schedule/" + id);
+  },
   // Saves a book to the database
   saveAddGames: function(scheduleData) {
     return axios.post("/api/schedule", scheduleData);

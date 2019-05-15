@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
 // import DeleteBtn from "../components/DeleteBtn";
@@ -21,7 +22,7 @@ class AddGames extends Component {
   loadAddGames = () => {
     API.getAddGames()
       .then(res =>
-        this.setState({ date: res.data, opponent: "", location: "", startTime: "", snackFamily: "", addInfo: "" })
+        this.setState({ date: "", opponent: "", location: "", startTime: "", snackFamily: "", addInfo: "" })
       )
       .catch(err => console.log(err));
   };
@@ -96,7 +97,7 @@ class AddGames extends Component {
             onClick={this.handleFormSubmit}
           >
             Submit Game Information
-                  </FormBtn>
+          </FormBtn>
         </form>
       </Container>
     );
