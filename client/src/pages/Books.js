@@ -94,7 +94,7 @@ class Schedules extends Component {
             ))}
           </List>
         ) : (
-            <h3>Weekly game information</h3>
+            <h3>Weekly game information: </h3>
           )}
       </Container>
     );

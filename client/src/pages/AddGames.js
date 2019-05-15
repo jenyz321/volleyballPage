@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-
 import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
 // import DeleteBtn from "../components/DeleteBtn";
 import { Col, Row, Container } from "../components/Grid";
 // import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
+import { withRouter} from "react-router-dom";
 
 class AddGames extends Component {
   state = {
@@ -43,7 +43,8 @@ class AddGames extends Component {
         snackFamily: this.state.snackFamily,
         addInfo: this.state.addInfo
       })
-        .then(res => console.log(res))
+        // .then(res => console.log(res))
+        .then(() => this.props.history.push("/"))
 
         .catch(err => console.log(err));
     }
@@ -104,4 +105,4 @@ class AddGames extends Component {
   }
 
 }
-export default AddGames;
+export default withRouter(AddGames);
