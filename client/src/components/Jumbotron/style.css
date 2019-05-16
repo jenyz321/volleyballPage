@@ -1,5 +1,5 @@
 .jumbotron {
-    /* height: 300; */
+    /* height: 150; */
     clear: both;
     margin-top: 20px;
     padding-bottom: 20;
@@ -7,10 +7,10 @@
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
-
+    font-family:'Luckiest Guy', cursive;
     text-align: center;
-    color: rgb(0, 68, 255);
-    background-blend-mode: inherit;
+    color: hsl(225, 70%, 16%);
+    /* background-blend-mode: inherit; */
     
 
 
