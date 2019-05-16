@@ -1,0 +1,26 @@
+.jumbotron {
+    /* height: 300; */
+    clear: both;
+    margin-top: 20px;
+    padding-bottom: 20;
+    background-image: url("./gymfloor.JPG");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    color: rgb(0, 68, 255);
+    background-blend-mode: inherit;
+    
+
+
+}
+/* {{ height: 150, clear: "both", paddingTop: 60, textAlign: "center", backgroundColor: "grey"}} */
+
+
+
+
+
+
+
+

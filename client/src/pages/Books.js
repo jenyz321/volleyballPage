@@ -56,7 +56,7 @@ class Schedules extends Component {
     return (
       <Container fluid>
         <Jumbotron>
-          <h1>2019 Schedule Info</h1>
+          <h1>Weekly PACA Volleyball Information</h1>
         </Jumbotron>
         {this.state.schedules.length ? (
           <List>
@@ -94,7 +94,7 @@ class Schedules extends Component {
             ))}
           </List>
         ) : (
-            <h3>Weekly game information: </h3>
+            <h3> </h3>
           )}
       </Container>
     );
