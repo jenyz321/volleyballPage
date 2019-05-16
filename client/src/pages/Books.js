@@ -56,7 +56,7 @@ class Schedules extends Component {
     return (
       <Container fluid>
         <Jumbotron>
-          <h1>Weekly PACA Volleyball Information</h1>
+          <h1>2019 Season Information</h1>
         </Jumbotron>
         <Container>
           <Row>
@@ -66,13 +66,13 @@ class Schedules extends Component {
             {this.state.schedules.map(schedule => (
               <ListItem key={schedule._id}>
                 {/* add modal */}
-                <strong className="left-margin"  style={{marginLeft: "10px"}}>
+                <strong className="left-margin"  style={{marginLeft: "10px", fontSize: "30px", fontFamily: "'Audiowide', cursive"}}>
                   {schedule.opponent}
                 </strong>
                 <Button className="float-right" color="danger"  onClick={() => this.deleteSchedules(schedule._id)} style={{marginLeft: "10px"}}>✗</Button>
 
                 {/* <DeleteBtn className="float-right" onClick={() => this.deleteSchedules(schedule._id)} /> */}
-                <Button className="float-right"  color="info" onClick={() => this.handleScheduleModalOpen(schedule)}>More Info</Button>
+                <Button className="float-right"  color="primary" onClick={() => this.handleScheduleModalOpen(schedule)}>More Info</Button>
 
                 <Modal isOpen={this.state.modal} toggle={this.toggle.bind(this)} className={this.props.className}>
                   <ModalHeader toggle={this.toggle.bind(this)}>Game Information</ModalHeader>

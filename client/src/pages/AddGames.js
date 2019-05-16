@@ -54,7 +54,7 @@ class AddGames extends Component {
     return (
       <Container fluid>
         <Jumbotron>
-          <h1>adding game info</h1>
+          <h1>Coaches Only!</h1>
         </Jumbotron>
         <form>
           <Input
