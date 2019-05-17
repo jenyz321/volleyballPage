@@ -1,3 +1,5 @@
 module.exports = {
-  Schedule: require("./schedule")
+  Schedule: require("./schedule"),
+  User: require("./user"),
+
 };
