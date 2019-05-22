@@ -5,8 +5,8 @@ import "./style.css";
 export function Input(props) {
   return (
     <div className="form-group row">
-      <div class="col-md-6">
-      <input className="form-control input-sm" id="inputsm" {...props} />
+      <div className="col-md-8">
+      <input className="form-control input-lg" id="inputlg" {...props} />
       </div>
     </div>
   );
@@ -15,7 +15,7 @@ export function Input(props) {
 export function TextArea(props) {
   return (
     <div className="form-group row">
-      <div class="col-md-6">
+      <div className="col-md-8">
       <textarea className="form-control" rows="10" {...props} />
       </div>
     </div>

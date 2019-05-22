@@ -121,8 +121,8 @@ class SignUp extends Component {
             required=""
           >
             <option value="" disabled>Select role</option>
-            <option value="instructor">Instructor</option>
-            <option value="student">Student</option>
+            <option value="instructor">Coach</option>
+            <option value="student">Parent/Athlete</option>
           </select>
           <div className="checkbox mb-3 text-danger">
             {this.state.errorMessage}

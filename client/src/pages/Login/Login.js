@@ -58,7 +58,7 @@ class Login extends Component {
     return (
       <Container fluid>
         <form className="form-signin">
-          <h1 className="h4 mb-3 font-weight-normal">Please login</h1>
+          <h1 className="h4 mb-3 font-weight-900">Please login</h1>
           <label htmlFor="username" className="sr-only">email</label>
           <Input
             value={this.state.email}

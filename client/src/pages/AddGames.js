@@ -34,6 +34,7 @@ class AddGames extends Component {
   };
   handleFormSubmit = event => {
     event.preventDefault();
+    console.log("handleformsubmit ran");
     if (this.state.date && this.state.opponent && this.state.location && this.state.startTime) {
       API.saveAddGames({
         date: this.state.date,
