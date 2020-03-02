@@ -4,7 +4,7 @@ This MERN stack application was created for my volleyball team. I wanted to crea
 
 ## Getting Started
 
-click the link to get started! https://zirkvolleyball.herokuapp.com/
+Click the link to get started! https://zirkvolleyball.herokuapp.com/
 
 ### Instructions
 
