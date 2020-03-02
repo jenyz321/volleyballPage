@@ -1,4 +1,4 @@
-# volleyballPage
+# Volleyball Page
 
 This MERN stack application was created for my volleyball team. I wanted to create a team resource page for the players, parents, and coaches. 
 
